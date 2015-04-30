@@ -1,5 +1,4 @@
 /* @author: John Lusky
-   Date: 09/3/13
  */
 
 
@@ -157,7 +156,7 @@ textarea {
 /// Globals
 body {
   -webkit-font-smoothing: antialiased;
-  background: black url(../img/bg-main.png) repeat;
+  background: black;
   background-attachment: fixed;
   overflow-x: hidden;
   width: 1280px;
@@ -175,58 +174,36 @@ h1, h2 {
     position: relative;
     width: 1280px;
     height: 720px;
+    background: url(../img/frame.png) no-repeat;
     z-index: 1000;
     overflow: hidden;
 
     .logo {
-        position: relative;
-        left: 425px;
-        top: 65px;
-        width: 400px;
-        height: 400px;
-        background: url(../img/logo-fightnight.png) no-repeat;
+        position: absolute;
+        right: -500px;
+        bottom: 0px;
+        width: 200px;
+        height: 200px;
+        background: url(../img/fight-night-bage.png) no-repeat;
         background-size: 100%;
         z-index: 100;
+        opacity: 0;
+        -webkit-transform: rotateX(-900deg);
+        transform: rotateX(-900deg);
     }
 
-    h1 {
+    .follow {
         position: absolute;
-        top: 590px;
-        left: 407px;
-        color: rgba(255, 255, 255, 0.6);
-        font-size: 22px;
-
-        span {
-            color: $green;
-        }
+        right: -500px;
+        bottom: 0px;
+        width: 200px;
+        height: 200px;
+        background: url(../img/follow-us-badge.png) no-repeat;
+        background-size: 100%;
+        z-index: 100;
+        opacity: 0;
+        -webkit-transform: rotateX(-900deg);
+        transform: rotateX(-900deg);
     }
 
-}
-
-.space {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1280px;
-    height: 720px;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: .4;
-    z-index: 999;
-}
-
-
-.countdown {
-    position: absolute;
-    top: 402px;
-    left: 260px;
-    width: 735px;
-    height: 150px;
-    padding: 60px 0 0 50px;
-    background: $black;
-    border-bottom: 8px solid $blue;
-    font-family: $font-outage;
-    color: $white;
-    font-size: 40px;
-    box-sizing: border-box;
 }
