@@ -187,8 +187,11 @@ h1, h2 {
         background-size: 100%;
         z-index: 100;
         opacity: 0;
-        -webkit-transform: rotateX(-900deg);
-        transform: rotateX(-900deg);
+        -webkit-transform: rotateX(-1800deg);
+        transform: rotateX(-1800deg);
+        -moz-transform: rotateX(-1800deg);
+        -ms-transform: rotateX(-1800deg);
+        -o-transform: rotateX(-1800deg);
     }
 
     .follow {
@@ -201,8 +204,11 @@ h1, h2 {
         background-size: 100%;
         z-index: 100;
         opacity: 0;
-        -webkit-transform: rotateX(-900deg);
-        transform: rotateX(-900deg);
+        -webkit-transform: rotateX(-1800deg);
+        transform: rotateX(-1800deg);
+        -moz-transform: rotateX(-1800deg);
+        -ms-transform: rotateX(-1800deg);
+        -o-transform: rotateX(-1800deg);
     }
 
 }
